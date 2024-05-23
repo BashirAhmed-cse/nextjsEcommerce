@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
+import Pagination from "./Pagination";
 
 const ProductList = () => {
   return (
     <div className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2  gap-y-6 gap-x-4 mt-5">
-      
       <div className="relative  flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md">
         <Link
           className="relative mx-3 mt-3 flex h-60 overflow-hidden rounded-xl"
@@ -55,7 +55,6 @@ const ProductList = () => {
           </a>
         </div>
       </div>
-      
     </div>
   );
 };
